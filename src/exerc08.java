@@ -7,7 +7,6 @@ public class exerc08 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Digite um numero:");
         num1 = scan.nextInt();
-
         for(int i= 1; i <= 10; i++ ) {
             System.out.println(num1 * i);
         }
