@@ -1,6 +1,8 @@
+package Aula03;
+
 import javax.swing.*;
 
-public class Aftividade2_3 {
+public class Exercicio03 {
     public static void main(String[] args) {
         double n1, n2, n3, media;
         String ler;
@@ -21,4 +23,3 @@ public class Aftividade2_3 {
         }
     }
 }
-

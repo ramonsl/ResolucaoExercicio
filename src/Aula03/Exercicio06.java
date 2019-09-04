@@ -1,3 +1,5 @@
+package Aula03;
+
 import javax.swing.*;
 
 public class Exercicio06 {
