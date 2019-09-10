@@ -1,6 +1,5 @@
 package Lista;
 
-import com.sun.javafx.tk.quantum.QuantumToolkit;
 
 import java.util.Scanner;
 
