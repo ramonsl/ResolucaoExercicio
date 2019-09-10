@@ -12,7 +12,7 @@ public class Lista {
             fim=e;
             qtd ++;
         }else{
-            e.proximo=inicio;
+         //   e.proximo=inicio;
             inicio=e;
             qtd++;
 
@@ -30,7 +30,7 @@ public class Lista {
         }else{
 
 
-            fim.proximo=e;
+          ///  fim.proximo=e;
             fim=e;
             qtd++;
 
@@ -46,7 +46,7 @@ public class Lista {
             Elemento aux=inicio;
             while (aux!=null){
                 System.out.println(aux.toString());
-                aux=aux.proximo;
+           //     aux=aux.proximo;
             }
         }
     }

@@ -3,21 +3,25 @@ package Lista;
 import java.util.Scanner;
 
 public class Elemento {
-    int valor;
-    Elemento proximo;
+    String nome;
+    int idade;
+
 
     @Override
     public String toString() {
-        return " valor=" + valor ;
+        return " nome=" + nome +" idade=" + idade;
     }
 
     public void ler(){
         Scanner tc = new Scanner(System.in);
-        System.out.println("Digite o valor");
-        valor= tc.nextInt();
+        System.out.println("Digite o nome");
+        nome= tc.next();
+        System.out.println("Digite a idade");
+        idade= tc.nextInt();
     }
     public void mostrar(){
-        System.out.println(valor);
+        System.out.println(nome);
+        System.out.println(idade);
     }
 
 }
